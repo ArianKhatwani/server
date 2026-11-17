@@ -1,0 +1,17 @@
+teleport:
+  countdown-seconds: 5
+  cancel-on-move: true
+  cancel-on-damage: true
+  combat-tag-seconds: 15
+boards:
+  refresh-seconds: 30
+  # Boards are placed around the spawn when /setspawn is used.
+  radius: 4.0
+  height: 2.8
+  line-spacing: 0.27
+  kills: { angle: 0, title: "<gold><bold>⚔ ТОП УБИЙСТВ</bold></gold>" }
+  deaths: { angle: 90, title: "<red><bold>☠ ТОП СМЕРТЕЙ</bold></red>" }
+  streak: { angle: 180, title: "<light_purple><bold>🔥 ЛУЧШИЕ СЕРИИ</bold></light_purple>" }
+  playtime: { angle: 270, title: "<aqua><bold>⌛ ОНЛАЙН ВРЕМЯ</bold></aqua>" }
+messages:
+  prefix: "<dark_gray>[<gold>Chaos</gold><red>SMP</red>]</dark_gray> "
